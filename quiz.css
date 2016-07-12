@@ -1,0 +1,56 @@
+body {
+    margin: 15px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+}
+
+.main_header {
+    border: 2px dotted #FFF;
+    text-align: center;
+}
+
+
+.article {
+    background-color: #646764;
+    width: 30%;
+    border: 1px solid #000;
+    float: right;
+    margin: 10px;
+}
+
+ .section1 footer {
+    background-color: #ffbf80;
+    color: #000;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.prod_descrip {
+    text-align: justify;
+    margin: 5px;
+    font-family: monospace;
+}
+
+.specs, .pricing {
+    margin: 5px 10px;
+    font-size: .75em;
+    font-weight: 700;
+}
+
+.specs p, .pricing p {
+    margin: 0;
+}
+
+.section2, .section3 {
+    padding: 5px;
+}
+
+.section2 footer {
+    font-size: .65em;
+}
+
