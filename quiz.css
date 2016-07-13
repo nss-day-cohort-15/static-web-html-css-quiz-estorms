@@ -1,5 +1,8 @@
+/* Base Styling */
+
+
 body {
-    margin: 15px;
+    100%;
 }
 
 img {
@@ -15,9 +18,9 @@ img {
 
 .article {
     background-color: #646764;
+    display: inline-block;
     width: 30%;
     border: 1px solid #000;
-    float: right;
     margin: 10px;
 }
 
@@ -52,5 +55,13 @@ img {
 
 .section2 footer {
     font-size: .65em;
+}
+
+/* Responsive Design */
+
+@media (max-width: 760px) {
+    .image {
+        width: 40%;
+    }
 }
 
