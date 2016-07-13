@@ -45,6 +45,8 @@ img {
     font-weight: 700;
 }
 
+
+
 .specs p, .pricing p {
     margin: 0;
 }
@@ -59,9 +61,10 @@ img {
 
 /* Responsive Design */
 
-@media (max-width: 760px) {
-    .image {
-        width: 40%;
+@media (max-width: 666px) {
+    .article {
+        display: block;
+        width: 90%;
     }
 }
 
