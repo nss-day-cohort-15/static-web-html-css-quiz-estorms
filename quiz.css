@@ -1,6 +1,5 @@
 /* Base Styling */
 
-
 body {
     100%;
 }
@@ -10,11 +9,14 @@ img {
     margin: 10px auto;
 }
 
+/* Header Styling */ /*Note to self: might not need the .main-header class, could just style headers directly*/
+
 .main_header {
     border: 2px dotted #FFF;
     text-align: center;
 }
 
+/* Article Styling */
 
 .article {
     background-color: #646764;
@@ -24,6 +26,7 @@ img {
     margin: 10px;
 }
 
+/* Section 1 of Article Styling */
  .section1 footer {
     background-color: #ffbf80;
     color: #000;
@@ -39,32 +42,36 @@ img {
     font-family: monospace;
 }
 
+/* Sections 2 & 3 of Article Styling */
+
 .specs, .pricing {
     margin: 5px 10px;
     font-size: .75em;
     font-weight: 700;
 }
 
-
-
 .specs p, .pricing p {
     margin: 0;
-}
-
-.section2, .section3 {
-    padding: 5px;
 }
 
 .section2 footer {
     font-size: .65em;
 }
 
+.section2, .section3 {
+    padding: 5px;
+}
+
 /* Responsive Design */
 
-@media (max-width: 666px) {
-    .article {
-        display: block;
-        width: 90%;
-    }
-}
+@media (max-width: 695px) {
+        .article {
+         display: block;
+         width: 90%;
+      }
+      img {
+        min-width: 50%;
+      }
+  }
+
 
